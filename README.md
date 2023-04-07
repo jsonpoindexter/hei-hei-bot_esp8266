@@ -38,14 +38,9 @@ Follow the instructions in the [PlatformIO documentation](https://docs.platformi
 Create a `wifi_secrets.h` file in the `src` directory and add the following content:
 
 ~~~cpp
-#ifndef WIFI_SECRETS_H
-#define WIFI_SECRETS_H
-
 #define SSID_SECRET "your_wifi_ssid"
 #define PASSWORD_SECRET "your_wifi_password"
 #define HOSTNAME_SECRET "your_desired_hostname"
-
-#endif
 ~~~
 
 Replace `your_wifi_ssid`, `your_wifi_password`, and `your_desired_hostname` with the appropriate values for your network and device.
